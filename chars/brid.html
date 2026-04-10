@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet</title>
+    <link rel="stylesheet" href="../css/charSheet.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-image: url("../assets/Brid_Less_Opacity.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+    </style>
+
+</head>
+<body>
+    <a href="../index.html" class="home-btn">Home</a>
+    <h1>Brid</h1>
+    <div class="container">
+        <div class="box basic-stats">
+            <p class="title">Basic Stats</p>
+            <div>Race : Aarakockra (Humanoid, Medium)</div>
+            <div>Class : Monk</div>
+            <div>Level : 2</div>
+            <div>HP : 18/18 </div>
+            <div>Armor Class : 16</div>
+            <div>Initiative : +3 </div>
+            <div>Speed : 40 </div>
+            <div>Proficiency Bonus : +2 </div>
+            <div>Languages : Comon, Auran, Elvish</div>
+            <div>Flight : 40</div>
+        </div>
+
+        <!--<div>Score - Modifier<hr> 
+                <ul>
+                    <li>1 | -5</li>
+                    <li>2-3 | -4</li>
+                    <li>4-5 | -3</li> 
+                    <li>6-7 | -2</li>
+                    <li>8-9 | -1</li>
+                    <li>10-11 | +0</li>
+                    <li>12-13 | +1</li>
+                    <li>14-15 | +2</li> 
+                    <li>16-17 | +3</li>
+                    <li>18-19 | +4</li>
+                    <li>20-21 | +5</li> 
+                    <li>22-23 | +6</li>
+                    <li>24-25 | +7</li> 
+                    <li>26-27 | +8</li>
+                    <li>28-29 | +9</li> 
+                    <li>30 | +10</li>
+                </ul>
+        </div>-->
+
+        <div class="box ability-scores">
+            <p class="title">Ability Scores</p>
+            <div>Strength : 10</div>
+            <div>Dexterity : 17 (+3)</div>
+            <div>Constitution : 14 (+2)</div>
+            <div>Intelligence : 8 (-1)</div>
+            <div>Wisdom : 16 (+3)</div>
+            <div>Charisma : 8 (-1)</div>
+        </div>
+
+        <div class="box saving-throws">
+            <p class="title">Saving Throws</p>
+            <div>Strength : +2 </div>
+            <div>Dexterity : +5</div>
+            <div>Constitution : +2</div>
+            <div>Intelligence : -1</div>
+            <div>Wisdom : +3</div>
+            <div>Charisma : -1</div>
+        </div>
+
+        <div class="box skills">
+            <p class="title">Skills</p>
+            <div>Athletics : +2 (str)</div>
+            <div>Acrobatics : +5(dex)</div>
+            <div>Sleight of Hands : +3(dex)</div>
+            <div>Stealth : +3(dex)</div>
+            <div>Arcana : -1(int)</div>
+            <div>History : -1(int)</div>
+            <div>Investigation : -1(int)</div>
+            <div>Nature : -1(int)</div>
+            <div>Religion : -1(int)</div>
+            <div>Animal Handling : +3(wis)</div>
+            <div>Insight : +3(wis)</div>
+            <div>Medicine : +3(wis)</div>
+            <div>Perception : +3(wis)</div>
+            <div>Survival : +3(wis)</div>
+            <div>Deception : +1(cha)</div>
+            <div>Intimidation : +1(cha)</div>
+            <div>Performance : -1(cha)</div>
+            <div>Persuation : -1(cha)</div>
+        </div>
+
+        <div class="box attacks">
+            <p class="title">Attacks - Weapons</p>
+            <div>Talons : <span class="explanation">1d6+5 - You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength/Dexterity(+3) modifier + Proficiency(+2) slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</span></div>
+            <div>Martian Arts : <span class="explanation">1d4 + Dexterity(+3) + Proficiency(+2) </span></div>
+            <div>Quarterstaff : <span class="explanation">1d6 + Dexterity(+3) + Proficiency(+2) (Versatile 1d8 + Proficiency(+2)) - Bludgeoning</span></div>
+            <div>Shortbow : <span class="explanation"> 1d6 + Dexterity(+3) + Proficiency(+2) (Two-Hand)</span></div>
+        </div>
+
+        <div class="box features">
+            <p class="title">Class Features</p>
+            <div>Unarmored Defence : <span class="explanation">Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</span></div>
+            <div>Martial Arts : <span class="explanation">
+                <ol>
+                    <li>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.</li>
+                    <li>You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</li>
+                    <li>When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.</li>
+                </ol>
+            </span></div>
+            <div>Ki points : 2</div>
+            <div>Ki save DC : 8 + Proficiency bonus(+2) + Wisdom Modifier(+3) </div>
+            <div>Flurry of Blows : <span class="explanation">Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</span></div>
+            <div>Patient Defence : <span class="explanation">You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</span></div>
+            <div>Step of the Wind : <span class="explanation">You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</span></div>
+
+        </div>
+
+        <div class="box gold">
+            <p class="title">Gold</p>
+            <div>Copper Pieces :</div><div>0</div>
+            <div>Silver Pieces :</div><div>0</div>
+            <div>Gold Pieces :</div><div>5</div>
+            <div>Platinum Pieces :</div><div>0</div>
+            <div class="gold-last">100 CP = 1 GP, 10 SP = 1 GP, 10 GP = 1 PP</div>
+        </div>
+
+        <div class="box proficiencies">
+            <p class="title">Proficiencies and Other</p>
+            <div>Armor : None</div>
+            <div>Weapons : Simple weapons, shortswords</div>
+            <div>Tools : Carpenter’s tools, Disguise kit</div>
+            <div>Saving Throws : Strength, Dexterity</div>
+            <div>Skills : Athletics, Acrobatics</div>
+            <a href="https://dnd5e.wikidot.com/monk">Click me for more information</a>
+        </div>
+    </div><br>
+    <footer style="border: 2px, solid black; font-size: 2rem;">© Nikolaos Nikolopoulos</footer>
+</body>
+</html>

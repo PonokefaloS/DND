@@ -1,0 +1,63 @@
+body{
+    font-size: 1.5rem;
+}
+
+.explanation{
+    font-size: 1rem;
+}
+
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "Metamorphous", serif;
+    font-size: 18px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+h1 {
+    font-family: "Metamorphous", serif;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    font-size: 60px;
+}
+
+.container{
+    font-family: "Metamorphous", serif;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.gold{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.gold>.title{
+    grid-column: span 2;
+}
+
+.title{
+    border: 3px solid black;
+}
+
+ul{
+    list-style: none;
+}
+
+.gold-last{
+    grid-column: span 2;
+}
+
+/*.features{
+    grid-column: span 2;
+}
